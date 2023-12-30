@@ -3,5 +3,5 @@ export default function DestyleCSS({
 }: {
   children: React.ReactNode
 }) {
-  return <div className="react-scoped-reset-css__destyle">{children}</div>
+  return <div className="react-scoped-css-reset__destyle">{children}</div>
 }

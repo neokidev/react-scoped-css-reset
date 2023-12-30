@@ -1,5 +1,5 @@
 {
-  "extends": "@react-scoped-reset-css/typescript-config/tsconfig.base.json",
+  "extends": "@react-scoped-css-reset/typescript-config/tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./dist"
   },

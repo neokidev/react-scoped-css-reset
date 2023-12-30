@@ -1,5 +1,5 @@
 {
-  "name": "react-scoped-reset-css",
+  "name": "react-scoped-css-reset",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -7,7 +7,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,yaml}\""
   },
   "devDependencies": {
-    "@react-scoped-reset-css/typescript-config": "workspace:*",
+    "@react-scoped-css-reset/typescript-config": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^6.16.0",
     "@typescript-eslint/parser": "^6.16.0",
     "eslint": "^8.56.0",

@@ -1,4 +1,4 @@
-import importCSSPlugin from '@react-scoped-reset-css/esbuild-plugins/import-css'
+import importCSSPlugin from '@react-scoped-css-reset/esbuild-plugins/import-css'
 import esbuild from 'esbuild'
 
 await esbuild.build({

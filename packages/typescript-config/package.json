@@ -1,5 +1,5 @@
 {
-  "name": "@react-scoped-reset-css/typescript-config",
+  "name": "@react-scoped-css-reset/typescript-config",
   "version": "0.0.0",
   "private": true,
   "publishConfig": {

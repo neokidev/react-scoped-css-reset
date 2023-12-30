@@ -1,15 +1,15 @@
 {
-  "name": "@react-scoped-reset-css/destyle",
+  "name": "@react-scoped-css-reset/destyle",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resonance-box/react-scoped-reset-css.git"
+    "url": "git+https://github.com/resonance-box/react-scoped-css-reset.git"
   },
-  "homepage": "https://github.com/resonance-box/react-scoped-reset-css#readme",
+  "homepage": "https://github.com/resonance-box/react-scoped-css-reset#readme",
   "bugs": {
-    "url": "https://github.com/resonance-box/react-scoped-reset-css/issues"
+    "url": "https://github.com/resonance-box/react-scoped-css-reset/issues"
   },
   "license": "MIT",
   "author": "ot07",
@@ -31,8 +31,8 @@
     "build:type": "tsc"
   },
   "devDependencies": {
-    "@react-scoped-reset-css/esbuild-plugins": "workspace:*",
-    "@react-scoped-reset-css/typescript-config": "workspace:*",
+    "@react-scoped-css-reset/esbuild-plugins": "workspace:*",
+    "@react-scoped-css-reset/typescript-config": "workspace:*",
     "@types/react": "^18.2.46",
     "esbuild": "^0.19.11",
     "rimraf": "^5.0.5",
