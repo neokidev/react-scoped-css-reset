@@ -1,0 +1,3 @@
+{
+  "extends": "@react-scoped-reset-css/typescript-config/tsconfig.base.json"
+}

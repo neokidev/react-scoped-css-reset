@@ -1,0 +1,11 @@
+{
+  "name": "@react-scoped-reset-css/esbuild-plugins",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./import-css": "./import-css.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

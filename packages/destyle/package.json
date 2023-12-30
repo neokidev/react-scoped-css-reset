@@ -1,0 +1,45 @@
+{
+  "name": "@react-scoped-reset-css/destyle",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resonance-box/react-scoped-reset-css.git"
+  },
+  "homepage": "https://github.com/resonance-box/react-scoped-reset-css#readme",
+  "bugs": {
+    "url": "https://github.com/resonance-box/react-scoped-reset-css/issues"
+  },
+  "license": "MIT",
+  "author": "ot07",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && pnpm build:component && pnpm build:css && pnpm build:type",
+    "build:component": "node build.mjs",
+    "build:css": "sass --no-source-map --style=compressed src/style.scss dist/style.css",
+    "build:type": "tsc"
+  },
+  "devDependencies": {
+    "@react-scoped-reset-css/esbuild-plugins": "workspace:*",
+    "@react-scoped-reset-css/typescript-config": "workspace:*",
+    "@types/react": "^18.2.46",
+    "esbuild": "^0.19.11",
+    "rimraf": "^5.0.5",
+    "sass": "^1.69.6",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
