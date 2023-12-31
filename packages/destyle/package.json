@@ -1,8 +1,14 @@
 {
   "name": "@react-scoped-css-reset/destyle",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "A scoped CSS reset React component using destyle.css",
+  "keywords": [
+    "css",
+    "stylesheets",
+    "reset",
+    "reset-css",
+    "normalize-css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/resonance-box/react-scoped-css-reset.git"
