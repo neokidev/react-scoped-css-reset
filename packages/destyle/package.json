@@ -1,6 +1,6 @@
 {
   "name": "@react-scoped-css-reset/destyle",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A scoped CSS reset React component using destyle.css",
   "keywords": [
     "css",
