@@ -4,7 +4,8 @@
   "scripts": {
     "build": "turbo build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --cache",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,yaml}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,yaml}\"",
+    "prepare": "pnpm build"
   },
   "devDependencies": {
     "@react-scoped-css-reset/typescript-config": "workspace:*",
